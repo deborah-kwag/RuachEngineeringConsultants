@@ -1,0 +1,178 @@
+       /* Reset and basic styles*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: aqua;
+            color: blue;
+            line-height: normal;
+        }
+        /* Navigation Bar */
+        nav {
+            background-color: blueviolet;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 5px;
+            position: sticky;
+            top: 0;
+        }
+        
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .nav-links li {
+            margin-left: 25px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: yellow;
+        }
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+            color: white;
+            text-align: center;
+            padding: 100px 20px;            
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+             font-size: 20px;
+             margin-bottom: 30px;
+        }
+        .hero a {
+            display: inline-block;
+            background-color: yellow;
+            color: blue;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .hero a:hover {
+            background-color: yellowgreen;
+        }
+        /* Content Section */
+        .content {
+            padding: 30px 10px;
+            text-align: center;
+            background-color: white;
+        }
+        .content h2 {
+            color: blue;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+    .content p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 25px;
+    }
+
+.container {
+            display: grid;
+            grid-template-columns: auto
+        auto auto;
+            background-color: blue;
+            padding: 10px;
+        }
+        .container div{
+          background-color: white;
+          border: 1px solid black;
+          padding: 10px;
+          font-size: 20px;
+          text-align: center;
+          font-family: "", sans-serif;
+        }
+
+        /* Contact Section */
+         *{
+            box-sizing: border-box;
+         }
+         input[type=text], select, textarea {
+            width: 100%;
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing:border-box;
+            margin-top: 6px;
+            margin-bottom: 6px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            resize: vertical;
+         }
+
+         input[type=submit] {
+            background-color: aquamarine;
+            color: black;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+         }
+
+         input[type=submit]:hover {
+            background-color: blue;
+         }
+
+
+    /* Footer */
+    footer {
+      background-color: #7d99b3;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
