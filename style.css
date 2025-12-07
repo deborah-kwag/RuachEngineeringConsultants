@@ -175,8 +175,12 @@ body {
 .team-section {
   background: rgb(0, 4, 53);
   color: white;
-  padding: 60px 20px;
-  display: flex;
+  padding: 40px 20px;
+  text-align: center;
+}
+.team-section h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
